@@ -28,7 +28,7 @@ This portfolio project is a simple web application built using HTML, CSS, JavaSc
 * Link Coming Soon.
 
 ## **Screenshots** 
-![Image](public/screenshot1)
+![Image](public/screenshot1.png)
 
 
 1. **Prerequisites:**
