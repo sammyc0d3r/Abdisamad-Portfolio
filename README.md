@@ -28,7 +28,7 @@ This portfolio project is a simple web application built using HTML, CSS, JavaSc
 * Link Coming Soon.
 
 ## **Screenshots** 
-![screenshots showcasing portfolio's design and features.]([[path/to/your/image.jpg](https://i.postimg.cc/mrCvJMrm/screencapture-localhost-5173-2024-04-01-13-54-54.png)])
+![Alt text describing your screenshot]([https://i.postimg.cc/mrCvJMrm/screencapture-localhost-5173-2024-04-01-13-54-54.png])
 
 1. **Prerequisites:**
    * Node.js (version 14.x or later recommended)
