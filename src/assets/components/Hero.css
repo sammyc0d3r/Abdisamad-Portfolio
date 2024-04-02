@@ -1,0 +1,72 @@
+.container1 {
+    height: 800px;
+    margin: 30px;
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    margin: 30px auto; /* Center horizontally */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    color: black;
+    max-width: 1800px; /* Set fixed width */
+
+
+    
+}
+
+
+
+@media (min-width: 1300px) {
+    .Headersdiv h1 {
+        font-size: 70px;
+        background: linear-gradient(45deg, #007BFF, #000000, #545ab4);
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    background-clip: text;
+    color: transparent; /* Hide the text color */
+    text-transform: uppercase;
+    
+    }
+    .Headersdiv p {
+        color: rgb(0, 0, 0);
+    }
+
+    .Headersdiv p {
+        font-size: 15px;
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .Imagediv {
+        display: none;
+
+    }
+
+    .Headersdiv h1 {
+        font-size: 70px;
+        padding-bottom: 25px;
+    }
+
+    .Headersdiv p {
+        font-size: 15px;
+        margin-top: -40px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .Headersdiv h1 {
+        font-size: 40px;
+    }
+
+    .Headersdiv p {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .container1 {
+        height: 500px;
+        margin: 0;
+    }
+}

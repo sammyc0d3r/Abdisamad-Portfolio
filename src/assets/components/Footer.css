@@ -1,0 +1,30 @@
+.Footer-Container {
+    height: 300px;
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    margin: 40px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 1800px; /* Set fixed width */
+    margin: 30px auto; /* Center horizontally */
+}
+
+.Footer-headers p {
+    color: #FF4500;
+}
+
+span {
+    color: #FF4500;
+}
+
+.Footer-headers {
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    .Footer-Container {
+       margin: 0;
+    }
+}

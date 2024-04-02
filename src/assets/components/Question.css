@@ -1,0 +1,56 @@
+.Container {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically center the content */
+    margin: 0;
+    padding: 0;
+    margin-top: 12px;
+  }
+  
+  .Container > div { /* Target direct children divs for spacing */
+    margin-right: 15px; /* Add space between the divs */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Container > div:last-child p:last-child {
+    font-weight: bold; /* Make the last <p> bold */
+  }
+  
+  img {
+    width: 30px;
+  }
+
+  p {
+    font-size: 12.4px;
+    margin: 0;
+  }
+
+.Container > div:last-child { /* Target the text div */
+  border-left: none; /* Remove the left border of the second div */
+}
+
+.Container > div {
+    border: 1px solid #ddd; /* Add border to each child div */
+    margin: 0;
+    padding: 0;
+  }
+
+.div1 {
+    width: 65px;
+    text-align: center;
+    height: 50px;
+}
+
+.div2 {
+    width: 130px;
+    text-align: center;
+    height: 50px;
+}
+
+.haveany {
+  margin-top: 5px;
+}
+
+.QuestionImage {
+  margin-top: 5px;
+}

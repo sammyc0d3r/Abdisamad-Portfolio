@@ -1,0 +1,42 @@
+/* Qualifications.css */
+
+.Qualifications-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(240, 240, 240);
+}
+
+.Qualifications-Container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Qualifications-Container ul li {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 2%;
+}
+
+.Qualifications-Container ul li::before {
+    content: '';
+    display: inline-block;
+    width: 11px; /* Adjust according to your image size */
+    height: 11px; /* Adjust according to your image size */
+    background: url('tick.png') no-repeat; /* Provide the path to your tick.png image */
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.Qualifications-Container ul li small {
+    font-size: 0.8em; /* Adjust the size of the small text as needed */
+}
+
+.Qualifications-Container ul li strong {
+    font-weight: bold;
+}

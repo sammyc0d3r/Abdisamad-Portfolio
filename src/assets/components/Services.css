@@ -1,0 +1,72 @@
+.Services-Container {
+    height: auto; /* Adjusted to auto to accommodate dynamic content */
+    color: black;
+    background-color: white;
+    padding: 20px; /* Increased padding for better spacing */
+    overflow: hidden;
+}
+
+.Services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Service {
+    flex: 1 1 200px; /* Adjusted flex basis for better responsiveness */
+    max-width: 200px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px; /* Increased padding for better spacing */
+    text-align: left;
+}
+
+.Services-header {
+    color: black;
+    text-align: center;
+}
+
+.Services-header > p {
+    padding-top: 20px;
+    letter-spacing: 2px;
+    color: #FF6325;
+}
+
+.Services-header > h3 {
+    margin-top: 0;
+}
+
+.Service ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.Service ul li {
+    position: relative;
+    padding-left: 25px;
+    text-align: left;
+    font-size: 14px;
+    color: #7c7c7c;
+}
+
+.Service ul li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background-image: url('tick.png');
+    background-size: contain; /* Changed to contain for better scaling */
+}
+
+.Services h4 {
+    color: red;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.Service {
+    padding: 20px;
+}

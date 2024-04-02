@@ -1,0 +1,124 @@
+.container {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 20px; /* Add margins from left and right */
+    max-width: 1800px; /* Set fixed width */
+    margin: 30px auto; /* Center horizontally */
+    margin-top: 0;
+}
+
+.logodiv {
+    margin-right: auto;
+}
+
+.pages {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.pages > ul {
+    list-style: none;
+    display: flex;  
+    justify-content: center;
+}
+
+.pages > ul > li {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: color 0.3s, transform 0.3s, cursor 0.3s; /* Add transition for smooth hover effect */
+
+    
+}
+
+.pages > ul > li:hover {
+    color: #FF6325; /* Change color on hover */
+    cursor: pointer; /* Change cursor on hover */
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+.Logo {
+    width: 170px;
+    margin-top: 5px;
+}
+
+.question {
+    margin-left: auto;
+}
+
+.pages li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: none;
+    transition: color 0.3s, transform 0.3s, cursor 0.3s; /* Add transition for smooth hover effect */
+  }
+  .sidebar li{
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s, cursor 0.3s; /* Add transition for smooth hover effect */
+  }
+
+  .sidebar a{
+    width: 100%;
+  }
+
+  .sidebar li:hover{
+    font-size: 25px;
+    color: #FF6325; /* Change color on hover */
+    cursor: pointer; /* Change cursor on hover */
+    transform: scale(1.1); /* Increase size on hover */
+  }
+
+  
+
+@media (max-width: 1000px) {
+    .questiondiv {
+        display: none;
+        color: red;
+    }
+}
+
+@media (max-width: 750px) {
+    .hideOnMobile {
+        display: none;
+    }
+}
+
+@media (min-width: 750px) {
+    .menuImage {
+        display: none;
+    }
+}
+
+
+
+.menuImage {
+    float: left;
+    height: 50px;
+}
+
+.NavLinks {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent <li> */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
