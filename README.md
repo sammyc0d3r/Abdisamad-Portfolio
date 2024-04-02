@@ -24,11 +24,11 @@ This portfolio project is a simple web application built using HTML, CSS, JavaSc
     * Field: ...
 
 ## **Live Demo**
-[Link to My App](https://illustrious-sherbet-aabcb8.netlify.app/)
+[Link to My App]([https://illustrious-sherbet-aabcb8.netlify.app/](https://abdisamad-portfolio.netlify.app/))
 * Link Coming Soon.
 
 ## **Screenshots** 
-![Image](https://i.postimg.cc/mrCvJMrm/screencapture-localhost-5173-2024-04-01-13-54-54.png)
+![Image](public/screenshot1)
 
 
 1. **Prerequisites:**
